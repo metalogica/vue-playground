@@ -23,4 +23,6 @@ const vm = Vue.createApp({
       navigator.clipboard.writeText(`X rotation: ${this.rotateX}deg, Y rotation: ${this.rotateY}deg, Z rotation: ${this.rotateZ}deg, perspective: ${this.perspective}px`);
     }
   }
-}).mount('#app');
+});
+
+vm.mount('#app');
