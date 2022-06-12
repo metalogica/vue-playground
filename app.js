@@ -4,11 +4,11 @@ const vm = Vue.createApp({
       rotateX: 0, 
       rotateY: 0,
       rotateZ: 0,
-      perspective: 400,
+      perspective: 600,
     }
   },
   computed: {
-    boxStyle() {
+    cubeStyle() {
       return { transform: `perspective(${this.perspective}px) rotateX(${this.rotateX}deg) rotateY(${this.rotateY}deg) rotateZ(${this.rotateZ}deg)` }
     },
   },
